@@ -333,13 +333,13 @@ body {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 .slide:nth-child(1) {
-    background-image: url('images/laptop 1.jpg');
+    background-image: url('laptop 1.jpg');
 }
 .slide:nth-child(2) {
-    background-image: url('images/phone 1.jpg');
+    background-image: url('phone 1.jpg');
 }
 .slide:nth-child(3) {
-    background-image: url('images/system unit 1.jpg');
+    background-image: url('system unit 1.jpg');
 }
 @keyframes slide {
     0% { transform: translateX(0); }
@@ -2251,3 +2251,4 @@ footer {
         font-size: 0.8rem;
     }
 }
+
