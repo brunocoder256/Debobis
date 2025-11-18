@@ -4,7 +4,7 @@ const products = [
     name: "High-Performance Laptop",
     price: "UGX 2,500,000",
     description: "Powerful laptop for work and gaming, with latest specs. This laptop features a sleek design and high-performance components suitable for demanding tasks.",
-    image: src="laptop 1.jpg",
+    image: "laptop 1.jpg",
     images: ["laptop 1.jpg", "laptop 2.jpg", "laptop 3.jpg"],
     highlights: ["New Condition", "16GB RAM", "Intel i7 Processor"],
     specs: {
@@ -906,10 +906,10 @@ const product = products.find(p => p.id === productId);
 // Function to generate image carousel
 function generateImageCarousel(images) {
   if (images.length === 1) {
-    return `<img src="${images[0]}" class="detail-image" alt="${product.name}">`;
+    return `<img src="${[0]}" class="detail-image" alt="${product.name}">`;
   }
   let carouselHTML = `<div class="image-carousel">
-    <img src="${images[0]}" class="detail-image main-image" alt="${product.name}" id="main-image">
+    <img src="${[0]}" class="detail-image main-image" alt="${product.name}" id="main-image">
     <div class="thumbnails">`;
   images.forEach((img, index) => {
     carouselHTML += `<img src="${img}" class="thumbnail" data-index="${index}" alt="Thumbnail ${index + 1}">`;
@@ -998,5 +998,6 @@ if (product.images.length > 1) {
   // Set first thumbnail as active
   thumbnails[0].classList.add('active');
 }
+
 
 
