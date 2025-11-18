@@ -143,7 +143,7 @@ const products = [
     price: "UGX 100,000",
     description: "Multi-port USB hub for expanding connectivity options. Connect multiple devices effortlessly.",
     image: "USB port.jpg",
-    images: ["/USB port.jpg"],
+    images: ["USB port.jpg"],
     highlights: ["New Condition", "4 Ports", "USB 3.0"],
     specs: {
       model: "Anker USB Hub",
@@ -697,7 +697,7 @@ const products = [
     image: "phone 5.jpg",
     images: ["phone 5.jpg"],
     highlights: ["New Condition", "4GB RAM", "Snapdragon 720G"],
-    specs: 
+    specs: {
       model: "Sony Xperia 5 III",
       RAM: "8GB",
       processor: "Snapdragon 888",
@@ -906,10 +906,10 @@ const product = products.find(p => p.id === productId);
 // Function to generate image carousel
 function generateImageCarousel(images) {
   if (images.length === 1) {
-    return `<img src="${[0]}" class="detail-image" alt="${product.name}">`;
+    return `<img src="${images[0]}" class="detail-image" alt="${product.name}">`;
   }
   let carouselHTML = `<div class="image-carousel">
-    <img src="${[0]}" class="detail-image main-image" alt="${product.name}" id="main-image">
+    <img src="${images[0]}" class="detail-image main-image" alt="${product.name}" id="main-image">
     <div class="thumbnails">`;
   images.forEach((img, index) => {
     carouselHTML += `<img src="${img}" class="thumbnail" data-index="${index}" alt="Thumbnail ${index + 1}">`;
@@ -998,6 +998,3 @@ if (product.images.length > 1) {
   // Set first thumbnail as active
   thumbnails[0].classList.add('active');
 }
-
-
-
