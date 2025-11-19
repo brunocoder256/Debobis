@@ -936,10 +936,21 @@ function generateSpecsTable(specs) {
 }
 
 // Function to generate related products
-function generateRelatedProducts(relatedIds) {
-  const relatedProducts = products.filter(p => relatedIds.includes(p.id)).slice(0, 4);
+function generateRelatedProducts(relatedIds, searchTerm = '') {
+  let relatedProducts = products.filter(p => relatedIds.includes(p.id));
+  if (searchTerm) {
+    const term = searchTerm.toLowerCase();
+    relatedProducts = relatedProducts.filter(p =>
+      p.name.toLowerCase().includes(term) || p.description.toLowerCase().includes(term)
+    );
+  }
+  relatedProducts = relatedProducts.slice(0, 4);
   let relatedHTML = `<div class="related-products">
     <h3>Related Products</h3>
+    <div class="search-container" style="margin-bottom: 20px;">
+      <input type="text" id="related-search" placeholder="Search related products..." class="search-input" style="width: 100%; max-width: 400px;">
+      <i class="fas fa-search search-icon"></i>
+    </div>
     <div class="related-row">`;
   relatedProducts.forEach(p => {
     relatedHTML += `<div class="related-card">
@@ -964,8 +975,8 @@ document.getElementById("product-detail").innerHTML = `
       <p class="price">${product.price}</p>
       <ul class="highlights">${generateHighlights(product.highlights)}</ul>
       <div class="buttons">
-        <button class="buy-btn">Buy Now</button>
-        <button class="contact-btn">Contact Seller</button>
+        <a href="tel:+256778578785" class="buy-btn">Buy Now</a>
+        <a href="tel:+256778578785" class="contact-btn">Contact Seller</a>
       </div>
       <div class="seller-info">
         <p><strong>Seller:</strong> ${product.seller}</p>
@@ -997,4 +1008,15 @@ if (product.images.length > 1) {
   });
   // Set first thumbnail as active
   thumbnails[0].classList.add('active');
+}
+
+// Add search functionality for related products
+const relatedSearchInput = document.getElementById('related-search');
+if (relatedSearchInput) {
+  relatedSearchInput.addEventListener('input', function() {
+    const searchTerm = this.value.trim();
+    const relatedSection = document.querySelector('.related-products');
+    const newRelatedHTML = generateRelatedProducts(product.related, searchTerm);
+    relatedSection.innerHTML = newRelatedHTML;
+  });
 }
