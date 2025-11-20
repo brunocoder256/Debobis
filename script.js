@@ -511,3 +511,8 @@ function initLightbox() {
 function viewProduct(id) {
     window.location.href = `product.html?id=${id}`;
 }
+AOS.init({
+    once: true, // animations play only once
+    mirror: false // don’t repeat on scroll back
+});
+
