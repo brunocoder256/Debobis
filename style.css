@@ -2276,4 +2276,42 @@ footer {
         font-size: 0.8rem;
     }
 }
+/* Container (fixed, bottom-right) */
+.call-btn {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #007bff, #00c853); /* blue → green */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    animation: wiggle 2.5s infinite;
+    text-decoration: none;
+}
+
+.call-btn i {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Wiggle animation */
+@keyframes wiggle {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-5px); }
+    20% { transform: translateX(5px); }
+    30% { transform: translateX(-4px); }
+    40% { transform: translateX(4px); }
+    50% { transform: translateX(-2px); }
+    60% { transform: translateX(2px); }
+    70% { transform: translateX(-1px); }
+    80% { transform: translateX(1px); }
+    90% { transform: translateX(0.5px); }
+    100% { transform: translateX(0); }
+}
 
