@@ -588,7 +588,6 @@ body {
   color: white;
 }
 
-
 .seller-info {
   margin-top: 20px;
   font-size: 0.9em;
@@ -2272,10 +2271,11 @@ footer {
         font-size: 1rem;
     }
 
-    .testimonial-author span {
-        font-size: 0.8rem;
-    }
+.testimonial-author span {
+    font-size: 0.8rem;
 }
+}
+
 /* Container (fixed, bottom-right) */
 .call-btn {
     position: fixed;
@@ -2314,4 +2314,3 @@ footer {
     90% { transform: translateX(0.5px); }
     100% { transform: translateX(0); }
 }
-
