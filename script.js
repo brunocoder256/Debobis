@@ -390,36 +390,6 @@ function initObservers() {
     window.addEventListener('resize', resizeCanvas);
 })();
 
-/* ---------- Product Filtering (fixed placement) ---------- */
-function initProductFiltering() {
-    const filterButtons = document.querySelectorAll(".filter-buttons button");
-    const products = Array.from(document.querySelectorAll(".product"));
-
-    if (!filterButtons.length || !products.length) return;
-
-    filterButtons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            // active state
-            document.querySelector(".filter-buttons .active")?.classList.remove("active");
-            btn.classList.add("active");
-
-            const filter = btn.getAttribute("data-filter");
-
-            products.forEach(product => {
-                const category = product.getAttribute("data-category") || 'others';
-                if (filter === "all" || filter === category) {
-                    // use class to allow CSS animations if desired
-                    product.style.display = 'block';
-                    product.classList.add('visible');
-                } else {
-                    product.style.display = 'none';
-                    product.classList.remove('visible');
-                }
-            });
-        });
-    });
-}
-
 /* ---------- Page init (single place) ---------- */
 document.addEventListener('DOMContentLoaded', function () {
     // Fade-in of body (keeps your effect)
@@ -482,3 +452,4 @@ document.addEventListener('DOMContentLoaded', function () {
         AOS.init({ once: true, mirror: false });
     }
 });
+
