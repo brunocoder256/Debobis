@@ -499,8 +499,8 @@ body {
 
 .product-image-section img {
     width: 100%;
-    max-width: 500px;
-    height: auto;
+    max-width: 400px;
+    height: 500px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
@@ -2107,4 +2107,5 @@ footer {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
 }
+
 
