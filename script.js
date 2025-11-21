@@ -357,7 +357,7 @@ function initLightbox() {
     let currentX = 0, currentY = 0;
 
     // Add click event to all images that should open in lightbox
-    const allImages = document.querySelectorAll('.slider-slide img, .product-item img');
+    const allImages = document.querySelectorAll('.slider-slide img, .product-item img, #product-image');
     allImages.forEach(img => {
         img.addEventListener('click', function() {
             lightboxImg.src = this.src;
