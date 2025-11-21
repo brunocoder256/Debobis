@@ -292,7 +292,7 @@ body {
 }
 
 .video-cta-button {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #007bff, #28a745);
     color: #fff;
     border: none;
     padding: 1rem 2rem;
@@ -785,8 +785,16 @@ footer {
 
 /* New Footer Styles */
 .footer-section {
-    background: linear-gradient(135deg, #151414 0%, #003366 100%);
+    background: linear-gradient(135deg, #007bff 0%, #28a745 100%);
     position: relative;
+    color: #fff;
+}
+
+.footer-logo a {
+    color: #fff !important;
+}
+
+.footer-section .single-cta i {
     color: #fff;
 }
 .footer-cta {
@@ -830,7 +838,7 @@ footer {
 .footer-text p {
     margin-bottom: 14px;
     font-size: 14px;
-    color: #7e7e7e;
+    color: #fff;
     line-height: 28px;
 }
 .footer-social-icon span {
@@ -853,13 +861,13 @@ footer {
     border-radius: 50%;
 }
 .facebook-bg {
-    background: #3B5998;
+    background: linear-gradient(135deg, #007bff, #28a745);
 }
 .twitter-bg {
-    background: #55ACEE;
+    background: linear-gradient(135deg, #007bff, #28a745);
 }
 .google-bg {
-    background: #DD4B39;
+    background: linear-gradient(135deg, #007bff, #28a745);
 }
 .footer-widget-heading h3 {
     color: #fff;
@@ -886,7 +894,7 @@ footer {
     color: #007bff;
 }
 .footer-widget ul li a {
-    color: #878787;
+    color: #fff;
     text-transform: capitalize;
 }
 .subscribe-form {
@@ -920,7 +928,7 @@ footer {
 .copyright-text p {
     margin: 0;
     font-size: 14px;
-    color: #878787;
+    color: #fff;
 }
 .copyright-text p a {
     color: #007bff;
@@ -938,8 +946,8 @@ footer {
 }
 .services {
     padding: 60px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #fff;
+    background: #ffffff;
+    color: #333;
     position: relative;
     overflow: hidden;
 }
@@ -951,13 +959,13 @@ footer {
 .services-title {
     font-size: 3.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #333;
     margin-bottom: 1rem;
     text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .services-subtitle {
     font-size: 1.25rem;
-    color: #e2e8f0;
+    color: #666;
     font-weight: 300;
     max-width: 600px;
     margin: 0 auto;
@@ -985,7 +993,7 @@ footer {
 .service-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    background: linear-gradient(135deg, #007bff, #28a745);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -1008,7 +1016,7 @@ footer {
     margin-bottom: 1.5rem;
 }
 .service-button {
-    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    background: linear-gradient(135deg, #007bff, #28a745);
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -1020,7 +1028,7 @@ footer {
 }
 .service-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
 }
 .services-cta {
     text-align: center;
@@ -1034,17 +1042,17 @@ footer {
 .services-cta-title {
     font-size: 2rem;
     font-weight: 600;
-    color: #ffffff;
+    color: #333;
     margin-bottom: 1rem;
 }
 .services-cta-description {
-    color: #e2e8f0;
+    color: #666;
     margin-bottom: 2rem;
     font-size: 1.1rem;
 }
 .services-cta-button {
-    background: #ffffff;
-    color: #4f46e5;
+    background: linear-gradient(135deg, #007bff, #28a745);
+    color: #fff;
     border: none;
     padding: 1rem 2rem;
     border-radius: 15px;
@@ -1052,11 +1060,11 @@ footer {
     font-size: 1.1rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,123,255,0.3);
 }
 .services-cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 40px rgba(0,123,255,0.4);
 }
 .floating-elements {
     position: absolute;
@@ -1881,8 +1889,8 @@ footer {
 /* Testimonials Section */
 .testimonials {
     padding: 60px 20px;
-    background: linear-gradient(135deg, #f093fb 0%, #667eea 50%, #764ba2 100%);
-    color: #fff;
+    background: #ffffff;
+    color: #333;
     position: relative;
     overflow: hidden;
 }
@@ -1896,19 +1904,25 @@ footer {
 .testimonials-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #ffffff;
     margin-bottom: 1rem;
     text-align: center;
     text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, #007bff, #28a745);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .testimonials-subtitle {
     font-size: 1.25rem;
-    color: #e2e8f0;
     font-weight: 300;
     max-width: 600px;
     margin: 0 auto 3rem;
     text-align: center;
+    background: linear-gradient(135deg, #007bff, #28a745);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .testimonials-grid {
