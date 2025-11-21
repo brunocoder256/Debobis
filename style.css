@@ -130,7 +130,7 @@ body {
 }
 
 .social-icons a:hover {
-    background: linear-gradient(135deg, var(--blue), #0056b3);
+    background: linear-gradient(135deg, var(--blue), var(--green));
     color: white;
 }
 
