@@ -412,10 +412,15 @@ body {
     margin-bottom: 15px;
 }
 .products {
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 22px;
-    padding: 10px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
 }
 .product {
     border: 1px solid #eee;
@@ -2313,4 +2318,84 @@ footer {
     80% { transform: translateX(1px); }
     90% { transform: translateX(0.5px); }
     100% { transform: translateX(0); }
+}
+
+/* Scroll-triggered animations */
+[data-animation="fade-up"] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+[data-animation="fade-up"].animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+[data-animation="fade-right"] {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+[data-animation="fade-right"].animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+[data-animation="zoom-in"] {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+[data-animation="zoom-in"].animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Lazy loading for images */
+img[data-src] {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+img[data-src].loaded {
+    opacity: 1;
+}
+/* Full-page background canvas */
+#networkCanvasBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* behind all content */
+}
+
+/* Page content */
+.contact-page-content {
+    position: relative;
+    z-index: 1; /* above the canvas */
+    background: rgba(255,255,255,0.85); /* slightly see-through */
+    /* padding/margins as needed */
+}
+
+.filter-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filter-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-buttons button.active {
+    background: #0056b3;
 }
