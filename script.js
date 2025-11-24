@@ -564,6 +564,295 @@ function initProductDetail() {
                 "OS": "Windows 11 Pro"
             }
         },
+        laptop2: {
+            title: "Premium Laptop 2",
+            image: "laptop 2.jpg",
+            price: "UGX 2,800,000",
+            description: "High-end laptop with advanced features and performance. Perfect for professionals and creative work.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i7-11800H",
+                "RAM": "16GB DDR4",
+                "Storage": "1TB SSD",
+                "Graphics": "NVIDIA RTX 3060 6GB",
+                "Display": "15.6\" QHD IPS",
+                "Battery": "Up to 10 hours",
+                "Weight": "2.0 kg",
+                "OS": "Windows 11 Pro"
+            }
+        },
+        laptop3: {
+            title: "Business Laptop 3",
+            image: "laptop 3.jpg",
+            price: "UGX 2,600,000",
+            description: "Reliable laptop for professional use and productivity. Built for business environments.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i5-1135G7",
+                "RAM": "16GB DDR4",
+                "Storage": "512GB SSD",
+                "Graphics": "Intel Iris Xe",
+                "Display": "14\" FHD IPS",
+                "Battery": "Up to 12 hours",
+                "Weight": "1.5 kg",
+                "OS": "Windows 11 Pro"
+            }
+        },
+        laptop4: {
+            title: "Gaming Laptop 4",
+            image: "laptop 4.jpg",
+            price: "UGX 3,200,000",
+            description: "Powerful gaming laptop with high graphics performance. Ideal for gaming enthusiasts.",
+            category: "laptops",
+            specifications: {
+                "Processor": "AMD Ryzen 7 5800H",
+                "RAM": "16GB DDR4",
+                "Storage": "1TB SSD",
+                "Graphics": "NVIDIA RTX 3070 8GB",
+                "Display": "15.6\" FHD 144Hz",
+                "Battery": "Up to 6 hours",
+                "Weight": "2.5 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop5: {
+            title: "Ultrabook 5",
+            image: "laptop 5.jpg",
+            price: "UGX 2,400,000",
+            description: "Lightweight ultrabook for portability and efficiency. Perfect for travel and mobile work.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i5-1135G7",
+                "RAM": "8GB DDR4",
+                "Storage": "512GB SSD",
+                "Graphics": "Intel Iris Xe",
+                "Display": "13.3\" FHD IPS",
+                "Battery": "Up to 15 hours",
+                "Weight": "1.2 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop6: {
+            title: "Student Laptop 6",
+            image: "laptop 6.jpg",
+            price: "UGX 2,000,000",
+            description: "Affordable laptop ideal for students and learning. Great value for education.",
+            category: "laptops",
+            specifications: {
+                "Processor": "AMD Ryzen 5 5500U",
+                "RAM": "8GB DDR4",
+                "Storage": "256GB SSD",
+                "Graphics": "AMD Radeon",
+                "Display": "15.6\" HD",
+                "Battery": "Up to 8 hours",
+                "Weight": "1.8 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop7: {
+            title: "Creative Laptop 7",
+            image: "laptop 7.jpg",
+            price: "UGX 2,900,000",
+            description: "Laptop designed for creative professionals and designers. Enhanced graphics capabilities.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i7-11800H",
+                "RAM": "16GB DDR4",
+                "Storage": "1TB SSD",
+                "Graphics": "NVIDIA RTX 3050 Ti 4GB",
+                "Display": "15.6\" FHD IPS",
+                "Battery": "Up to 9 hours",
+                "Weight": "2.2 kg",
+                "OS": "Windows 11 Pro"
+            }
+        },
+        laptop8: {
+            title: "Executive Laptop 8",
+            image: "laptop 8.jpg",
+            price: "UGX 3,100,000",
+            description: "Premium laptop for executives with sleek design. Professional and elegant.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i7-1165G7",
+                "RAM": "16GB DDR4",
+                "Storage": "1TB SSD",
+                "Graphics": "Intel Iris Xe",
+                "Display": "14\" 4K OLED",
+                "Battery": "Up to 14 hours",
+                "Weight": "1.3 kg",
+                "OS": "Windows 11 Pro"
+            }
+        },
+        laptop9: {
+            title: "Versatile Laptop 9",
+            image: "Laptop 9.jpg",
+            price: "UGX 2,700,000",
+            description: "Versatile laptop suitable for various tasks and uses. All-purpose computing.",
+            category: "laptops",
+            specifications: {
+                "Processor": "AMD Ryzen 7 5700U",
+                "RAM": "16GB DDR4",
+                "Storage": "512GB SSD",
+                "Graphics": "AMD Radeon",
+                "Display": "15.6\" FHD IPS",
+                "Battery": "Up to 10 hours",
+                "Weight": "1.9 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop10: {
+            title: "Compact Laptop 10",
+            image: "laptop 10.jpg",
+            price: "UGX 2,300,000",
+            description: "Compact and powerful laptop for on-the-go productivity. Space-saving design.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i5-1135G7",
+                "RAM": "8GB DDR4",
+                "Storage": "512GB SSD",
+                "Graphics": "Intel Iris Xe",
+                "Display": "13.3\" FHD IPS",
+                "Battery": "Up to 12 hours",
+                "Weight": "1.4 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop11: {
+            title: "High-End Laptop 11",
+            image: "laptop 11.jpg",
+            price: "UGX 3,500,000",
+            description: "Top-tier laptop with cutting-edge technology. Ultimate performance.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i9-11900H",
+                "RAM": "32GB DDR4",
+                "Storage": "2TB SSD",
+                "Graphics": "NVIDIA RTX 3080 16GB",
+                "Display": "17.3\" 4K IPS",
+                "Battery": "Up to 8 hours",
+                "Weight": "3.2 kg",
+                "OS": "Windows 11 Pro"
+            }
+        },
+        laptop12: {
+            title: "Budget Laptop 12",
+            image: "laptop 12.jpg",
+            price: "UGX 1,800,000",
+            description: "Cost-effective laptop with essential features. Great for basic computing needs.",
+            category: "laptops",
+            specifications: {
+                "Processor": "AMD Ryzen 3 5300U",
+                "RAM": "8GB DDR4",
+                "Storage": "256GB SSD",
+                "Graphics": "AMD Radeon",
+                "Display": "15.6\" HD",
+                "Battery": "Up to 7 hours",
+                "Weight": "1.9 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop13: {
+            title: "Multimedia Laptop 13",
+            image: "laptop 13.jpg",
+            price: "UGX 2,750,000",
+            description: "Laptop optimized for multimedia and entertainment. Enhanced audio and display.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i7-1165G7",
+                "RAM": "16GB DDR4",
+                "Storage": "1TB SSD",
+                "Graphics": "Intel Iris Xe",
+                "Display": "15.6\" FHD IPS",
+                "Battery": "Up to 9 hours",
+                "Weight": "2.1 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop14: {
+            title: "Travel Laptop 14",
+            image: "laptop 14.jpg",
+            price: "UGX 2,200,000",
+            description: "Lightweight laptop perfect for travel and mobility. Ultra-portable design.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i5-1135G7",
+                "RAM": "8GB DDR4",
+                "Storage": "512GB SSD",
+                "Graphics": "Intel Iris Xe",
+                "Display": "14\" FHD IPS",
+                "Battery": "Up to 16 hours",
+                "Weight": "1.1 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop15: {
+            title: "Professional Laptop 15",
+            image: "laptop 15.jpg",
+            price: "UGX 3,000,000",
+            description: "Professional-grade laptop for demanding tasks. Enterprise-ready.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i7-11850H",
+                "RAM": "32GB DDR4",
+                "Storage": "1TB SSD",
+                "Graphics": "NVIDIA RTX 3060 6GB",
+                "Display": "15.6\" FHD IPS",
+                "Battery": "Up to 8 hours",
+                "Weight": "2.3 kg",
+                "OS": "Windows 11 Pro"
+            }
+        },
+        laptop16: {
+            title: "Innovative Laptop 16",
+            image: "laptop 16.jpg",
+            price: "UGX 2,850,000",
+            description: "Innovative laptop with latest innovations. Cutting-edge features.",
+            category: "laptops",
+            specifications: {
+                "Processor": "AMD Ryzen 7 5800H",
+                "RAM": "16GB DDR4",
+                "Storage": "1TB SSD",
+                "Graphics": "NVIDIA RTX 3050 4GB",
+                "Display": "15.6\" FHD IPS",
+                "Battery": "Up to 10 hours",
+                "Weight": "2.0 kg",
+                "OS": "Windows 11 Home"
+            }
+        },
+        laptop17: {
+            title: "Elite Laptop 17",
+            image: "laptop 17.jpg",
+            price: "UGX 3,300,000",
+            description: "Elite laptop for top performance and style. Premium build quality.",
+            category: "laptops",
+            specifications: {
+                "Processor": "Intel Core i9-11900H",
+                "RAM": "32GB DDR4",
+                "Storage": "2TB SSD",
+                "Graphics": "NVIDIA RTX 3070 8GB",
+                "Display": "16\" QHD+ IPS",
+                "Battery": "Up to 9 hours",
+                "Weight": "2.4 kg",
+                "OS": "Windows 11 Pro"
+            }
+        },
+        laptop18: {
+            title: "Ultimate Laptop 18",
+            image: "laptop 18.jpg",
+            price: "UGX 3,800,000",
+            description: "The ultimate laptop with unmatched capabilities. Flagship performance.",
+            category: "laptops",
+            specifications: {
+                "Processor": "AMD Ryzen 9 5900HX",
+                "RAM": "64GB DDR4",
+                "Storage": "4TB SSD",
+                "Graphics": "NVIDIA RTX 3080 16GB",
+                "Display": "17.3\" 4K IPS",
+                "Battery": "Up to 7 hours",
+                "Weight": "3.5 kg",
+                "OS": "Windows 11 Pro"
+            }
+        },
         phone1: {
             title: "Latest Smartphone",
             image: "phone 1.jpg",
@@ -581,64 +870,346 @@ function initProductDetail() {
                 "Weight": "180g"
             }
         },
-        systemunit1:{
-            title: "Quality System Units",
-            image: "system unit 1.jpg",
-            price: "3,000,000",
-            description: "Advance performance with high level and large storage",
-            category: "system-unit",
+        phone2: {
+            title: "Smartphone 2",
+            image: "phone 2.jpg",
+            price: "UGX 1,300,000",
+            description: "Advanced smartphone with superior camera and battery. Premium features.",
+            category: "phones",
             specifications: {
-                "Processor": "Intel i5",
-                "RAM": "8GB",
+                "Processor": "Snapdragon 8+ Gen 1",
+                "RAM": "12GB",
+                "Storage": "256GB",
+                "Camera": "108MP Quad Camera",
+                "Display": "6.7\" AMOLED 120Hz",
+                "Battery": "4500mAh Fast Charging",
+                "OS": "Android 13",
+                "Weight": "195g"
             }
         },
-        Storage1:{
-            title: "Quality Storage Drive",
-            image: "SSD Drive.jpg",
+        phone3: {
+            title: "Flagship Phone 3",
+            image: "phone 3.jpg",
+            price: "UGX 1,500,000",
+            description: "Flagship smartphone with premium features. Top-tier performance.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 8 Gen 2",
+                "RAM": "12GB",
+                "Storage": "512GB",
+                "Camera": "200MP Triple Camera",
+                "Display": "6.8\" LTPO AMOLED 120Hz",
+                "Battery": "5000mAh Fast Charging",
+                "OS": "Android 13",
+                "Weight": "210g"
+            }
         },
-        Phonecharges:{
-            title: "Phpne Chargers and USB cables",
-            image: "Phone Chargers and USB cables.jpg",
+        phone4: {
+            title: "Mid-Range Phone 4",
+            image: "phone 4.jpg",
+            price: "UGX 900,000",
+            description: "Affordable mid-range smartphone with great value. Excellent performance.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 778G",
+                "RAM": "8GB",
+                "Storage": "128GB",
+                "Camera": "64MP Triple Camera",
+                "Display": "6.5\" AMOLED 90Hz",
+                "Battery": "4500mAh Fast Charging",
+                "OS": "Android 12",
+                "Weight": "185g"
+            }
         },
-        phone2:{
-            title: "",
-            image: "SumSung Flip.jpg"
+        phone5: {
+            title: "Compact Phone 5",
+            image: "phone 5.jpg",
+            price: "UGX 1,000,000",
+            description: "Compact smartphone for easy handling. Premium in a small package.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 8 Gen 1",
+                "RAM": "8GB",
+                "Storage": "256GB",
+                "Camera": "50MP Dual Camera",
+                "Display": "6.1\" AMOLED 120Hz",
+                "Battery": "4000mAh Fast Charging",
+                "OS": "Android 13",
+                "Weight": "165g"
+            }
         },
-        usbport:{
-            title: "",
-            image: "USB port.jp",
+        phone6: {
+            title: "Budget Phone 6",
+            image: "phone 6.jpg",
+            price: "UGX 700,000",
+            description: "Budget-friendly smartphone with essential features. Great value.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 680",
+                "RAM": "4GB",
+                "Storage": "64GB",
+                "Camera": "50MP Dual Camera",
+                "Display": "6.5\" IPS LCD",
+                "Battery": "5000mAh",
+                "OS": "Android 12",
+                "Weight": "190g"
+            }
         },
-        Debobisstore:{
-            title: "",
-            image: "Debobi's store.jpg",
+        phone7: {
+            title: "Photography Phone 7",
+            image: "phone 7.jpg",
+            price: "UGX 1,400,000",
+            description: "Smartphone optimized for photography enthusiasts. Professional camera.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 8 Gen 2",
+                "RAM": "12GB",
+                "Storage": "512GB",
+                "Camera": "108MP Quad Camera + 8K Video",
+                "Display": "6.7\" AMOLED 120Hz",
+                "Battery": "5000mAh Fast Charging",
+                "OS": "Android 13",
+                "Weight": "200g"
+            }
         },
-        systemunit2:{
-            title: "",
+        phone8: {
+            title: "Gaming Phone 8",
+            image: "phone 8.jpg",
+            price: "UGX 1,600,000",
+            description: "Smartphone designed for mobile gaming. High refresh rate display.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 8 Gen 2",
+                "RAM": "16GB",
+                "Storage": "512GB",
+                "Camera": "64MP Triple Camera",
+                "Display": "6.8\" AMOLED 165Hz",
+                "Battery": "6000mAh Fast Charging",
+                "OS": "Android 13",
+                "Weight": "230g"
+            }
+        },
+        phone9: {
+            title: "Stylish Phone 9",
+            image: "phone 9.jpg",
+            price: "UGX 1,100,000",
+            description: "Stylish smartphone with modern design. Fashion meets technology.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 778G",
+                "RAM": "8GB",
+                "Storage": "256GB",
+                "Camera": "64MP Triple Camera",
+                "Display": "6.4\" AMOLED 90Hz",
+                "Battery": "4500mAh Fast Charging",
+                "OS": "Android 12",
+                "Weight": "175g"
+            }
+        },
+        phone10: {
+            title: "Powerful Phone 10",
+            image: "phone 10.jpg",
+            price: "UGX 1,700,000",
+            description: "Powerful smartphone for high performance. Ultimate processing power.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 8 Gen 2",
+                "RAM": "16GB",
+                "Storage": "1TB",
+                "Camera": "200MP Triple Camera",
+                "Display": "6.9\" LTPO AMOLED 120Hz",
+                "Battery": "5500mAh Fast Charging",
+                "OS": "Android 13",
+                "Weight": "220g"
+            }
+        },
+        phone11: {
+            title: "Eco-Friendly Phone 11",
+            image: "phone 11.jpg",
+            price: "UGX 1,200,000",
+            description: "Eco-friendly smartphone with sustainable features. Environmentally conscious.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 778G",
+                "RAM": "8GB",
+                "Storage": "256GB",
+                "Camera": "64MP Triple Camera",
+                "Display": "6.5\" AMOLED 90Hz",
+                "Battery": "5000mAh Fast Charging",
+                "OS": "Android 12",
+                "Weight": "180g"
+            }
+        },
+        phone12: {
+            title: "Innovative Phone 12",
+            image: "phone 12.jpg",
+            price: "UGX 1,800,000",
+            description: "Innovative smartphone with cutting-edge tech. Future-ready features.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 8 Gen 2",
+                "RAM": "12GB",
+                "Storage": "512GB",
+                "Camera": "108MP Quad Camera + Periscope",
+                "Display": "6.7\" LTPO AMOLED 120Hz",
+                "Battery": "4800mAh Fast Charging",
+                "OS": "Android 13",
+                "Weight": "195g"
+            }
+        },
+        phone13: {
+            title: "Ultimate Phone 13",
+            image: "phone 13.jpg",
+            price: "UGX 2,000,000",
+            description: "The ultimate smartphone with all features. Complete package.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 8 Gen 2",
+                "RAM": "16GB",
+                "Storage": "1TB",
+                "Camera": "200MP Quad Camera + 8K Video",
+                "Display": "6.8\" LTPO AMOLED 144Hz",
+                "Battery": "6000mAh Fast Charging",
+                "OS": "Android 13",
+                "Weight": "225g"
+            }
+        },
+        samsungflip: {
+            title: "Samsung Flip Phone",
+            image: "SumSung Flip.jpg",
+            price: "UGX 800,000",
+            description: "Stylish flip phone with modern features and design. Classic form factor with modern tech.",
+            category: "phones",
+            specifications: {
+                "Processor": "Snapdragon 8 Gen 1",
+                "RAM": "8GB",
+                "Storage": "256GB",
+                "Camera": "12MP Dual Camera",
+                "Display": "6.7\" AMOLED (Main) + 1.9\" AMOLED (Cover)",
+                "Battery": "3700mAh Fast Charging",
+                "OS": "Android 12",
+                "Weight": "187g"
+            }
+        },
+        systemunit1: {
+            title: "Desktop System Unit",
+            image: "system unit 1.jpg",
+            price: "UGX 3,000,000",
+            description: "Custom-built desktop PC for high-performance computing. Perfect for gaming and productivity.",
+            category: "system-unit",
+            specifications: {
+                "Processor": "Intel Core i5-10400",
+                "RAM": "16GB DDR4",
+                "Storage": "1TB SSD",
+                "Graphics": "NVIDIA GTX 1660 Super 6GB",
+                "OS": "Windows 11 Pro",
+                "Power Supply": "650W 80+ Bronze",
+                "Motherboard": "ATX Gaming Board",
+                "Cooling": "Air Cooling"
+            }
+        },
+        systemunit2: {
+            title: "Store System Unit",
             image: "system unit store.jpg",
+            price: "UGX 3,500,000",
+            description: "High-end system unit available at our store location. Premium components.",
+            category: "system-unit",
+            specifications: {
+                "Processor": "Intel Core i7-10700",
+                "RAM": "32GB DDR4",
+                "Storage": "2TB SSD",
+                "Graphics": "NVIDIA RTX 3060 12GB",
+                "OS": "Windows 11 Pro",
+                "Power Supply": "750W 80+ Gold",
+                "Motherboard": "ATX Premium Board",
+                "Cooling": "Liquid Cooling"
+            }
         },
-        systemunit3:{
-            title: "",
+        systemunit3: {
+            title: "Advanced System Unit",
             image: "System Unit.jpg",
+            price: "UGX 4,000,000",
+            description: "Advanced desktop PC with premium components. Ultimate performance.",
+            category: "system-unit",
+            specifications: {
+                "Processor": "AMD Ryzen 7 5800X",
+                "RAM": "32GB DDR4",
+                "Storage": "2TB NVMe SSD",
+                "Graphics": "NVIDIA RTX 3070 8GB",
+                "OS": "Windows 11 Pro",
+                "Power Supply": "850W 80+ Platinum",
+                "Motherboard": "ATX High-End Board",
+                "Cooling": "Advanced Liquid Cooling"
+            }
         },
-        laptop2:{
-            title: "",
-            image: "laptop 2.jpg",
+        ssd1: {
+            title: "SSD Storage Drive",
+            image: "SSD Drive.jpg",
+            price: "UGX 300,000",
+            description: "Fast and reliable SSD for quick data access and storage. Upgrade your system performance.",
+            category: "hard-drives",
+            specifications: {
+                "Capacity": "1TB",
+                "Interface": "NVMe PCIe Gen 3",
+                "Read Speed": "Up to 3500 MB/s",
+                "Write Speed": "Up to 3000 MB/s",
+                "Form Factor": "2.5\" SATA",
+                "Warranty": "5 Years",
+                "Cache": "1GB SLC",
+                "Compatibility": "Desktop & Laptop"
+            }
         },
-        laptop3:{
-            title: "",
-            image: "laptop 3.jpg",
+        chargers1: {
+            title: "Phone Chargers & USB Cables",
+            image: "Phone Chargers and USB cables.jpg",
+            price: "UGX 50,000",
+            description: "High-quality chargers and cables for all your devices. Fast charging technology.",
+            category: "chargers",
+            specifications: {
+                "Output": "18W Fast Charging",
+                "Cable Type": "USB-C to USB-C",
+                "Cable Length": "1.5m",
+                "Compatibility": "Universal",
+                "Charging Speed": "Up to 18W",
+                "Protection": "Overcurrent & Short Circuit",
+                "Warranty": "1 Year",
+                "Included": "1 Charger + 1 Cable"
+            }
         },
-        laptop4:{
-            title: "",
-            image: "laptop 4.jpg",
+        usbport: {
+            title: "USB Port Hub",
+            image: "USB port.jpg",
+            price: "UGX 100,000",
+            description: "Multi-port USB hub for expanding connectivity options. Connect multiple devices.",
+            category: "others",
+            specifications: {
+                "USB Ports": "4x USB 3.0",
+                "HDMI Ports": "1x HDMI",
+                "Ethernet": "1x Gigabit Ethernet",
+                "SD Card Slots": "SD & microSD",
+                "Power Delivery": "100W USB-C PD",
+                "Compatibility": "Windows, macOS, Linux",
+                "Cable Length": "15cm",
+                "Warranty": "2 Years"
+            }
         },
-        laptop:{
-            title: "",
-            image: "laptop 5.jpg",
+        store: {
+            title: "Visit Our Store",
+            image: "Debobi's store.jpg",
+            price: "Free",
+            description: "Come to our physical store for personalized service. Experience our products in person.",
+            category: "others",
+            specifications: {
+                "Location": "Main street, Gulu city",
+                "Address": "Opposite V-power shell",
+                "Hours": "Mon-Sat: 9AM-6PM",
+                "Services": "Personal Consultation, Repairs, Sales",
+                "Contact": "+256 778 578 785",
+                "Email": "info@dibobis.com",
+                "Parking": "Available",
+                "Accessibility": "Wheelchair Accessible"
+            }
         }
-
-
-
     };
 
     const product = products[productId];
